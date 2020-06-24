@@ -15,7 +15,7 @@ function setup(){
         isStatic: true
     }
 
-    paperBall = new PaperBall(100,100);
+    paperBall = new PaperBall(100,100,10,15);
 
 
     ground = Bodies.rectangle(200,390,200,20,ground_options);
